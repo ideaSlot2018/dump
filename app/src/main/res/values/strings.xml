@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IdeaApp</string>
+    <string name="input_Text">Input Text</string>
+    <string name="button">Button</string>
+    <string name="title_activity_category_name">CategoryName</string>
+</resources>
