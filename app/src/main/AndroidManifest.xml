@@ -9,22 +9,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InputWord">
-
-        </activity>
-
-        <activity android:name=".Category" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
-
+        <activity
+            android:name=".Category"
+            android:label="@string/title_activity_category" />
         <activity
             android:name=".CategoryName"
-            android:label="@string/title_activity_category_name"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_category_name" />
+        <activity
+            android:name=".Main"
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InputData"
+            android:label="@string/title_activity_input_data" />
+        <activity
+            android:name=".IdeaSlot"
+            android:label="@string/title_activity_idea_slot" />
+        <activity
+            android:name=".IdeaList"
+            android:label="@string/title_activity_idea_list" />
+        <activity
+            android:name=".InputWord"
+            android:label="@string/title_activity_input_word" />
+        <activity
+            android:name=".main_sidebar"
+            android:label="@string/title_activity_main_sidebar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

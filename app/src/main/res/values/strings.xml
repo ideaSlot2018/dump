@@ -2,5 +2,19 @@
     <string name="app_name">IdeaApp</string>
     <string name="input_Text">Input Text</string>
     <string name="button">Button</string>
+    <string name="title_activity_main">Main</string>
     <string name="title_activity_category_name">CategoryName</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_input_data">InputData</string>
+    <string name="title_activity_input_word">InputWord</string>
+    <string name="title_activity_idea_slot">IdeaSlot</string>
+    <string name="title_activity_idea_list">IdeaList</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_sidebar">main_sidebar</string>
 </resources>
